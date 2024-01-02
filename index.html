@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerhone's Portfolio</title>
+
+
+    <!-- BS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- AOS Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#stickyNavBar">
+    <!-- Landing Page -->
+    <section id="landing" class="hero">
+    
+    
+        <div class="heroContent container vh-100 d-flex flex-column justify-content-center">
+             <!-- Name Banner -->
+            <div class="col-md-6 mb-5 text-center text-md-start text-light">
+                <h1 class="display-5 fw-bold  text-light my-0">Engr. Mark Aerhone Paul R. Palma</h1>
+                <p class="my-0"><span class="labelTitle">Full Stack Web Developer</span> | Mechanical Engineer</p>
+            </div>
+            <!-- End of Name Banner -->
+
+            <!-- Nav buttons -->
+            <div class="col-md-6 col-6 offset-3 offset-md-0 text-light d-inline-flex flex-wrap">
+                    
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsOne">
+                    <a class="text-decoration-none text-white text-center" href="#projects">
+                        <img class="img-fluid w-50" src="./assets/images/project.png" alt="project icon">
+                        <p>Projects</p>
+                    </a>
+                </div>  
+            
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsTwo">
+                    <a class="text-decoration-none text-white text-center" href="#tools">
+                        <img class="img-fluid w-50" src="./assets/images/tools.png" alt="tools icon">
+                        <p>Tools</p>
+                    </a>    
+                </div>
+
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsThree">
+                    <a class="text-decoration-none text-white text-center" href="#profile">
+                        <img class="img-fluid w-50" src="./assets/images/profile.png" alt="profile icon">
+                        <p>Profile</p>
+                    </a>  
+                </div>
+       
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsFour">
+                    <a class="text-decoration-none text-white text-center"  href="#contact">
+                        <img class="img-fluid w-50" src="./assets/images/phone.png" alt="contact icon">
+                        <p>Contact</p>
+                    </a>
+                    
+                </div>
+            </div>
+            <!-- End of Nav Buttons -->
+        </div>
+    </section>
+    <!-- End of Landing Page -->
+
+    <!-- Sticky Nav Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top z-3" aria-label="Offcanvas navbar medium" id="stickyNavBar">
+        <div class="container">
+            <h5 class="text-light my-0">@aerhone</h5>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#hamburger" aria-controls="hamburger" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start offcanvasContainer" tabindex="-1" id="hamburger" aria-labelledby="hamburgerLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-light" id="hamburgerLabel">@aerhone</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="d-md-none border-bottom">
+                        <div class="col-6 offset-3">
+                            <img src="./assets/images/profilepicture.jpeg" class="img-fluid rounded-circle hover">
+                           
+                        </div>
+
+                        <h4 class="text-light text-center mb-0 pt-2">
+                            Aerhone Palma
+                        </h4>
+                        
+                        <div class="d-flex col-6 offset-3">
+ 
+                            <div class="p-1">
+                                <a href="https://www.linkedin.com/in/aerhonepalma" target="_blank"><img src="./assets/images/linked.png" class="img-fluid my-3 hover" alt="linked in icon"></a>
+                            </div>
+                            <div class="p-1">
+                                <a href="https://www.facebook.com/aerhonepalma" target="_blank"><img src="./assets/images/fb.png" class="img-fluid my-3 hover" alt="facebook icon"></a>
+                            </div>
+                            <div class="p-1">
+                                <a href="https://www.instagram.com/aerhone" target="_blank"><img src="./assets/images/ig.png" class="img-fluid my-3 hover" alt="instagram icon"></a>
+                            </div>
+                            <div class="p-1">
+                                <a href="mailto:markaerhonepaul@gmail.com" target="_blank"><img src="./assets/images/mail.png" class="img-fluid my-3 hover" alt="gmail icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#landing">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tools">Tools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profile">Profile</a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Sticky Nav Bar -->
+
+    <!-- Project Section -->
+    <section id="projects" class="d-flex flex-column justify-content-center py-5">
+        <div class="container-fluid pb-5">
+            <h2 class="labelTitle pt-3 pb-3 pb-md-5 fw-bold display-4 display-md-3 text-break ps-md-5" data-aos="fade-right" data-aos-duration="500">My Projects</h2>
+
+            <!-- display for medium and up screen -->
+            <div class="row d-none d-md-flex" data-aos="fade-up" data-aos-duration="500">
+                <div class="row mainContainer text-light">
+                    <!-- First Project -->
+                    <div class="projectContainer rounded projectOne">
+                        <div class="projectContent p-2">
+                            <h3 class="labelTitle">Prop Equip</h3>
+                            <div>
+                                <img src="./assets/images/PropEquip.png" class="img-fluid" alt="">
+                            </div>
+                            <p>This is a future project. I will make a system to automate the monitoring of property/facility building equipment.</p>
+                            <div class="text-start">
+                                <a class="link-success link-offset-2 link-opacity-50-hover link-underline link-underline-opacity-0" href="https://i.pinimg.com/originals/dc/89/dc/dc89dc2e83b050e08ba77451ef731596.gif" target="_blank">visit site ></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Second Project -->
+                    <div class="projectContainer rounded projectTwo">
+                        <div class="projectContent p-2">
+                            <h3 class="labelTitle">Purple Shop POS</h3>
+                            <div>
+                                <img src="./assets/images/POS.png" class="img-fluid" alt="">
+                            </div>
+                            <p>This is a future project. After completing the bootcamp, I will make a system for our shop.</p>
+                            <div class="text-start">
+                                <a class="link-success link-offset-2 link-opacity-50-hover link-underline link-underline-opacity-0" href="https://64.media.tumblr.com/3483dcdc46b5f154355398a3eff9c22a/5a0ab08bcca25b2a-4a/s540x810/d10d46e8ce4d173c19a3ce683a80523afd499046.gifv" target="_blank">visit site ></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Third Project -->
+                    <div class="projectContainer rounded projectThree">
+                        <div class="projectContent p-2">
+                            <h3 class="labelTitle">Web Dev Portfolio</h3>
+                            <div>
+                                <img src="./assets/images/landing page.png" class="img-fluid" alt="">
+                            </div>
+                            <p>This is my Attempt to make an online portfolio using only HTML and CSS.</p>
+                            <div class="text-start">
+                                <a class="link-success link-offset-2 link-opacity-50-hover link-underline link-underline-opacity-0" href="https://aerhone.github.io/Portfolio/" target="_blank">visit site ></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fourth Project -->
+                    <div class="projectContainer rounded projectFour">
+                        <div class="projectContent p-2">
+                            <h3 class="labelTitle">The Purple Shop</h3>
+                            <div>
+                                <img src="./assets/images/purple shop.png" class="img-fluid" alt="webpage sample">
+                            </div>
+                            <p>After learning Bootstrap, this is my attempt to make a landing page for our RTW business.</p>
+                            <div class="text-start">
+                                <a class="link-success link-offset-2 link-opacity-50-hover link-underline link-underline-opacity-0" href="https://aerhone.github.io/The-Purple-Shop-Landing-Page/" target="_blank">visit site ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of display for medium and up screen -->
+
+            <!-- Display for small screen -->
+            <div id="projectCarousel" class="carousel slide d-md-none mt-5" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="500">
+                <div class="carousel-inner text-light">
+                    <!-- First Slide -->
+                    <div class="carousel-item active">
+                        <div class="slideContainer rounded col-8 offset-2">
+                            <div class="slideContent p-2">
+                                <h3 class="labelTitle">Prop Equip</h3>
+                                <div>
+                                    <img src="./assets/images/PropEquip.png" class="img-fluid" alt="">
+                                </div>
+                                <p>This is a future project. I will make a system to automate the monitoring of property/facility building equipment.</p>
+                                <div class="text-start">
+                                    <a class="link-success link-offset-2 link-opacity-50-hover link-underline link-underline-opacity-0" href="https://i.pinimg.com/originals/dc/89/dc/dc89dc2e83b050e08ba77451ef731596.gif" target="_blank">visit site ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Second Slide -->
+                    <div class="carousel-item">
+                        <div class="slideContainer rounded col-8 offset-2">
+                            <div class="slideContent p-2">
+                                <h3 class="labelTitle">Purple Shop POS</h3>
+                                <div>
+                                    <img src="./assets/images/POS.png" class="img-fluid" alt="">
+                                </div>
+                                <p>This is a future project. After completing the bootcamp, I will make a system for our shop.</p>
+                                <div class="text-start">
+                                    <a class="link-success link-offset-2 link-opacity-50-hover link-underline link-underline-opacity-0" href="https://64.media.tumblr.com/3483dcdc46b5f154355398a3eff9c22a/5a0ab08bcca25b2a-4a/s540x810/d10d46e8ce4d173c19a3ce683a80523afd499046.gifv" target="_blank">visit site ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Third Slides -->
+                    <div class="carousel-item">
+                        <div class="slideContainer rounded col-8 offset-2">
+                            <div class="slideContent p-2">
+                                <h3 class="labelTitle">Web Dev Portfolio</h3>
+                                <div>
+                                    <img src="./assets/images/landing page.png" class="img-fluid" alt="">
+                                </div>
+                                <p>This is my Attempt to make an online portfolio using only HTML and CSS.</p>
+                                <div class="text-start">
+                                    <a class="link-success link-offset-2 link-opacity-50-hover link-underline link-underline-opacity-0" href="https://aerhone.github.io/Portfolio/" target="_blank">visit site ></a>
+                                </div>
+                            </div>
+                        </div>                  
+                    </div>
+
+                    <!-- Fourth Slide -->
+                    <div class="carousel-item">
+                        <div class="slideContainer rounded col-8 offset-2">
+                            <div class="slideContent p-2">
+                                <h3 class="labelTitle">The Purple Shop</h3>
+                                <div>
+                                    <img src="./assets/images/purple shop.png" class="img-fluid" alt="webpage sample">
+                                </div>
+                                <p>After learning Bootstrap, this is my attempt to make a landing page for our RTW business.</p>
+                                <div class="text-start">
+                                    <a class="link-success link-offset-2 link-opacity-50-hover link-underline link-underline-opacity-0" href="https://aerhone.github.io/The-Purple-Shop-Landing-Page/" target="_blank">visit site ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- End of display for small screens -->
+        </div>
+    </section>
+    <!-- End of Project Section -->
+
+    <!-- Tools Section -->
+    <section id="tools" class="py-5">
+        <div class="container-fluid pb-5">
+            <h2 class="labelTitle py-3 fw-bold display-md-3 display-4 text-break ps-md-5" data-aos="fade-right" data-aos-duration="500">My Tools</h2>
+
+            <!-- Tools display for medium and up -->
+            <div class="d-none d-md-block">
+                <!-- Core Tools -->
+                <div class="d-flex col-md-8 offset-md-2" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/html5.png" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">HTML 5</h4>
+                            <img src="./assets/images/html.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/css3.jpg" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">CSS 3</h4>
+                            <img src="./assets/images/css.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/javascript.png" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">Javascript</h4>
+                            <img src="./assets/images/js.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/bootstrap.jpg" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">Bootstrap</h4>
+                            <img src="./assets/images/bootstrap.png" class="img-fluid character" />
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- End of Core Tools -->
+
+                <!-- Full Stack Tools -->
+                <div class="d-flex col-md-8 offset-md-2" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/mongodbphoto.png" class="img-fluid" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">MongoDB</h4>
+                            <img src="./assets/images/mongodb.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/expressphoto.png" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">ExpressJS</h4>
+                            <img src="./assets/images/express.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/reactphoto.png" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">ReactJS</h4> 
+                            <img src="./assets/images/react.png" class="img-fluid character" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 p-2 col-6 offset-3 offset-md-0">
+                        <div class="toolsContent rounded d-flex flex-column justify-content-end align-items-center">
+                            <div class="toolsContainer pt-2 pb-5 px-2">
+                            <img src="./assets/images/nodephoto.png" class="img-fluid cover-image" />
+                            </div>
+                            <h4 class="toolTitle labelTitle">NodeJS</h4>
+                            <img src="./assets/images/node js.png" class="img-fluid character" />
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Full Stack Tools -->
+            </div>
+            <!-- End of Tools display for medium and up -->
+
+            <!-- Tools Display for small screen -->
+            <div class="d-md-none col-10 offset-1 d-flex flex-column">
+                <div id="htmlContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-2 offset-1 toolIcons" id="htmlIcon">
+                        <img src="./assets/images/html.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">HTML 5</h4>   
+                    </div>
+                </div>
+
+                <div id="cssContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500" >
+                    <div class="col-2 offset-1 toolIcons" id="cssIcon">
+                        <img src="./assets/images/css.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">CSS 3</h4>   
+                    </div>
+                </div>
+                <div id="jsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-2 offset-1 toolIcons" id="jsIcon">
+                        <img src="./assets/images/js.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">Javascript</h4>   
+                    </div>
+                </div>
+                <div id="bsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-2 offset-1 toolIcons" id="bsIcon">
+                        <img src="./assets/images/bootstrap.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">Bootstrap</h4>   
+                    </div>
+                </div>
+                <div id="mongoContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-2 offset-1 toolIcons" id="mongoIcon">
+                        <img src="./assets/images/mongodb.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">MongoDB</h4>   
+                    </div>
+                </div>
+                <div id="ejsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-2 offset-1 toolIcons" id="ejsIcon">
+                        <img src="./assets/images/express.png" class="img-fluid" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">ExpressJS</h4>   
+                    </div>
+                </div>
+                <div id="rjsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-2 offset-1 toolIcons" id="rjsIcon">
+                        <img src="./assets/images/react.png" class="img-fluid toolIcons" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">ReactJS</h4>   
+                    </div>
+                </div>
+                <div id="njsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
+                    <div class="col-2 offset-1 toolIcons" id="njsIcon">
+                        <img src="./assets/images/node js.png" class="img-fluid toolIcons" />
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center">
+                        <h4 class="labelTitle text-break">NodeJS</h4>   
+                    </div>
+                </div>
+            </div>
+            <!-- End of Tools Display for small screen -->
+     
+        </div>
+
+    </section>
+    <!-- End of Tools Section -->
+
+    <!-- Profile Section -->
+    <section id="profile" class="my-0 py-5 pt-md-0">
+        <div class="container-fluid">
+            <div class="d-flex">
+                <!-- Profile Information -->
+                <div class="col-md-12 p-3">
+                    
+                    <div class="my-3 text-light">
+
+                        <!-- Profile for small screen below only -->
+                        <div class="d-md-none border-bottom border-secondary mb-3">
+                            <div class="text-center" data-aos="zoom-in" data-aos-duration="500">
+                                <img src="./assets/images/aerhone-half.png" alt="aerhone photo" class="img-fluid w-50 mb-3 mx-auto">
+                            </div>
+                            
+                            <div data-aos="fade-up" data-aos-duration="500">
+                                <p class="pb-0 mb-0">Hello! I am</p>
+                                <h2 class="labelTitle pt-0 mt-0">Engr. Mark Aerhone Paul R. Palma</h2>
+                                <p class="pt-0 mt-0">A Mechanical Engineer who codes!<p>
+                            </div>
+                        </div>
+                        <!-- End of Profie for small screen -->
+                        
+                        <!-- Work and Education -->
+                        <div class="row" data-aos="fade-up" data-aos-duration="500">
+                            <!-- Work Experience -->
+                            <div class="col-md-6 border-bottom border-secondary mt-5">
+                                <h3 class="labelTitle pb-3 fw-bold text-break ps-md-5">Work Experience</h3>
+                                <div class="container py-4">
+
+                                    <!-- Timeline -->
+                                    <div class="main-timeline">
+
+                                        <!-- Globalland -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionGloballandOne">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                            July 2022 to October 2023
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionGloballandOne">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Globalland Property Management, Inc.</h4>
+                                                            <ul class="text-break">
+                                                                <li>Property Manager (Sep. 2023 - Oct. 2023)</li>
+                                                                <li>Building Engineer (May 2023 - Sep 2023)</li>
+                                                                <li>Procurement Engineer (Jul. 2022 - May 2023)</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>        
+                                            </div>
+                                        </div>
+                                        <!-- End of Globalland -->
+
+                                        <!-- GlobalFME -->
+                                        <div class="timeline right" data-aos="fade-up"  data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionGlobalFME">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                            August 2019 to July 2022
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionGlobalFME">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Global Facilities Management Experts, Inc.</h4>
+                                                            <ul class="text-break">
+                                                                <li>Facilities Engineer - Mechanical Works (Aug. 2019 - Jul. 2022)</li>
+                                                                <li>Facilities Engineer - POM Operations (May 2022 - Jul. 2022)</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>     
+                                            </div>
+                                        </div>
+                                        <!-- End of GlobalFME -->
+
+                                        <!-- Globalland -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionGloballandTwo">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                            August 2017 to August 2019
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionGloballandTwo">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Globalland Property Management, Inc.</h4>
+                                                            <ul class="text-break">
+                                                                <li>Team Leader(Apr. 2018 - Aug. 2019)</li>
+                                                                <li>Building Engineer (Aug. 2017 - Aug. 2019)</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End of Globalland -->
+
+                                        <!-- Lamoiyan -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionLamoiyan">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                            February 2017 to August 2017
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionLamoiyan">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Lamoiyan Corpoaration</h4>
+                                                            <ul class="text-break">
+                                                                <li>Cadet Engineer</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End of Lampoiyan -->
+
+                                        <!-- Frey-fil -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionFreyFil">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                                            November 2016 to February 2017
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFreyFil">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Frey-Fil Corporation</h4>
+                                                            <ul class="text-break">
+                                                                <li>Cadet Engineer</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End of Frey Fil -->
+                                    </div>
+                                    <!-- End of Timeline -->
+                                </div>
+                            </div>
+                            <!-- End of Work Experience -->
+
+                            <!-- Educational Background -->
+                            <div class="col-md-6 border-bottom border-secondary mt-5">
+                                <h3 class="labelTitle pb-3 fw-bold text-break ps-md-5" data-aos="fade-up" data-aos-duration="500">Education</h3>
+                                <div class="container py-4">
+
+                                    <!-- Timeline -->
+                                    <div class="main-timeline">
+
+                                        <!-- bootcamp -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer p-2 rounded">
+                                                2024
+                                                <h4 class="labelTitle">Full Stack Web Dev Bootcamp</h4>
+                                                Zuitt Coding Bootcamp
+                                            </div>
+                                        </div>
+                                        <!-- End of bootcamp -->
+
+                                        <!-- PRC -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer p-2 rounded">
+                                                September 2016
+                                                <h4 class="labelTitle">Registered Mechanical Engineer</h4>
+                                                Proffesional Regulation Commission
+                                            </div>
+                                        </div>
+                                        <!-- End of PRC -->
+
+                                        <!-- College -->
+                                        <div class="timeline right" data-aos="fade-up"  data-aos-duration="500">
+                                            <div class="workContainer p-2 rounded">
+                                                2011-2016
+                                                <h4 class="labelTitle">Bachelor of Science in Mechanical Engineering</h4>
+                                                Bulacan State University
+                                            </div>
+                                        </div>
+                                        <!-- End of College -->
+                                    </div>
+                                    <!-- End of Timeline -->
+                                </div>
+                            </div>
+                            <!-- End of Educational Background -->
+                        </div>
+                        <!-- Story -->
+                        <div class="d-flex flex-md-row flex-nowrap myStory pt-5 myStory">
+                            <div class="col-md-8 offset-md-4 storyContainer p-2 rounded" data-aos="fade-up" data-aos-duration="500">
+                                <div class="rounded p-2 text-light" >
+                                    <h3 class="labelTitle pb-3 fw-bold text-break">My Story</h3>
+                                    <div>
+                                        <p>Hello there! I'm Aerhone, a multifaceted individual with a passion for continuous learning and diverse experiences. Let me take you on a journey through my professional and personal endeavors.</p>
+        
+                                        <p>In 2016, I proudly graduated with a degree in Mechanical Engineering and acquired my engineering license, marking the beginning of my journey in the world of property management. Over the years, I've worn various hats in this field, taking on roles such as Building Engineer, Project Engineer, Procurement Engineer, and ultimately evolving into a Property Manager.</p>
+        
+                                        <p>Despite finding success in this field, my passion for technology and the ever-evolving world of web development beckoned. By year 2023, in pursuit of this passion, I took a leap of faith, quitting my job to immerse myself in the world of coding and development. It's been a thrilling ride, and I'm excited about the endless possibilities that lie ahead.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Story -->
+                    </div>
+                </div>
+                <!-- End of Profile Information -->   
+            </div>
+        </div>
+    </section>
+    <!-- End of Profile Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container-fluid">
+            <h2 class="labelTitle py-3 fw-bold display-md-3 display-4 text-break ps-md-5" data-aos="fade-right" data-aos-duration="500">Contact Me</h2>
+            <div class="container d-flex flex-column flex-md-row">
+                <form action="mailto:markaerhonepaul@gmail.com" class="col-md-6 text-light formContainer p-2 mb-3 rounded" data-aos="fade-up" data-aos-duration="500">
+                    <div class="mb-3">
+                        <label for="Name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="Name" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" placeholder="Enter Your Messsage" required></textarea>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn col-6 formSubmit text-light">Submit</button>
+                    </div>
+                </form>
+
+                <div class="contactContainer col-md-6 p-2 text-light flex-column" data-aos="fade-up" data-aos-duration="500">
+                    <div class="d-flex mb-3">
+                        <div class="col-2 offset-2 d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/profile.png" class="img-fluid w-50">
+                        </div>
+                        <div class="col-6 d-flex justify-content-start align-items-center">
+                            <p>Engr. Mark Aerhone Paul R. Palma</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="col-2 offset-2 d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/loc.png" class="img-fluid w-50">
+                        </div>
+                        <div class="col-6 d-flex justify-content-start align-items-center">
+                            <p><em>Bulacan, Philippines</em></p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="col-2 offset-2 d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/phone.png" class="img-fluid w-50">
+                        </div>
+                        <div class="col-6 d-flex justify-content-start align-items-center">
+                            <p><em>0906-518-3900 | 0999-195-7143</em></p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column mb-3 align-items-center">
+                        <p class="mb-2">Socials</p>
+                        <div>
+                            <div class="d-flex col-6 offset-3">
+ 
+                                <div class="p-1">
+                                    <a href="https://www.linkedin.com/in/aerhonepalma" target="_blank"><img src="./assets/images/linked.png" class="img-fluid my-3 hover" alt="linked in icon"></a>
+                                </div>
+                                <div class="p-1">
+                                    <a href="https://www.facebook.com/aerhonepalma" target="_blank"><img src="./assets/images/fb.png" class="img-fluid my-3 hover" alt="facebook icon"></a>
+                                </div>
+                                <div class="p-1">
+                                    <a href="https://www.instagram.com/aerhone" target="_blank"><img src="./assets/images/ig.png" class="img-fluid my-3 hover" alt="instagram icon"></a>
+                                </div>
+                                <div class="p-1">
+                                    <a href="mailto:markaerhonepaul@gmail.com" target="_blank"><img src="./assets/images/mail.png" class="img-fluid my-3 hover" alt="gmail icon"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="flex text-light bg-dark py-3">
+        <div class="d-flex justify-content-center">
+        <img src="./assets/images/eggnog.png" class="img-fluid" alt="pet dog picture">
+        <small><p class="my-0">©2024 @aerhone</p></small>
+        <img src="./assets/images/Chamcham.png" class="img-fluid" alt="pet dog picture">
+        </div>
+    </footer>
+    <!-- Footer Section -->
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+    <!-- BS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
