@@ -13,7 +13,7 @@ html, body {
         overflow: hidden;
         animation: clip-hero-anim 1.25s cubic-bezier(0.29, 0.8, 0.8, 0.98);
         will-change: clip-path;
-        background: linear-gradient(to bottom right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(./assets/images/landing-background.jpeg);
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(./assets/images/landing-background.webp);
         background-repeat: no-repeat;
         background-position: 70% 60%;
         background-size: cover;
@@ -115,7 +115,7 @@ html, body {
 }
 
 .myStory{
-    background: url(./assets/images/aboutme.png) no-repeat, #222831;
+    background: url(./assets/images/aboutme.webp) no-repeat, #222831;
     background-size: contain;
     background-position: 20% 100%; 
 }
@@ -500,7 +500,7 @@ html, body {
 /* CSS for Contact */
 
 #contact{
-    background: url(./assets/images/contactbackground.png);
+    background: url(./assets/images/contactbackground.webp);
     background-repeat: no-repeat;
     background-position: 95% 100%;
     background-size: cover;
