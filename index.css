@@ -11,10 +11,13 @@ html, body {
     position: fixed;
     z-index: 100;
     display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
 }
 
 #preloader video{
-    width: 100%
+    max-width: 100%; /* Ensure the video does not exceed its natural width */
+    max-height: 100%; /* Ensure the video does not exceed its natural height */
 }
 
 
@@ -33,6 +36,7 @@ html, body {
         background-position: 70% 60%;
         background-size: cover;
         background-attachment: fixed;
+       
     }
 
     .heroContent {
